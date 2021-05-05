@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
 
     form.addEventListener("submit", e => {
         e.preventDefault();
-        const apiRapidKey = 'fbb10966a1msh2eaefd940b13690p133c1ejsn8fd47dee2870';
+        const apiRapidKey = 'd375ca65a2msh4136a69b3f215f2p1a0f61jsndefce51fd5f0';
         const input = form.querySelector('input')
         const inputVal = input.value;
         const url = `https://community-open-weather-map.p.rapidapi.com/weather?q=${inputVal}&units=metric`;
